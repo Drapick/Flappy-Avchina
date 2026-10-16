@@ -17,8 +17,7 @@
 А также полностью обновленный визуал с сохранением оригинальных персонажей, красивый свет, эффекты частиц и крайне приятное управление.
 
 ## Cтек
-![Unity](https://shields.io)
-![C#](https://shields.io)
-![SQLite](https://shields.io)
-![JSON](https://shields.io)
-![Aseprite](https://shields.io)
+- Движок: Unity 2022.3.62f3
+- Язык: C#
+- Хранение данных: SQLite, JSON
+- Графика и арт: Aseprite

@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -59,7 +58,6 @@ public class FlAvManager : MonoBehaviour
     }
 
     // Очки
-    
     /// <summary>
     /// Добавляет 1 очко к текущему счету и автоматически перезаписывает JSON-сейв, если побит рекорд.
     /// </summary>
@@ -85,7 +83,6 @@ public class FlAvManager : MonoBehaviour
     }
 
     // --- ЛОГИКА JSON ---
-
     public void SaveGame() {
         // Убеждаемся, что в списке есть место под текущий уровень
         while (data.levelHighScores.Count <= currentLevelID) {

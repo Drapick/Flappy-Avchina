@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.PlayerLoop;
+
 
 public class GameManager : MonoBehaviour
 {
-    // Статическая ссылка на экземпляр, доступная из других скриптов
     public static GameManager Instance { get; private set; }
 
     private void Awake()
     {
-        // Проверка: если экземпляр уже существует, удаляем дубликат
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -34,5 +30,4 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 }

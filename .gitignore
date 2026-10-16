@@ -13,6 +13,7 @@
 
 # Visual Studio / Rider / VS Code cache
 .vs/
+.vscode/
 .idea/
 *.csproj
 *.unityproj

@@ -840,53 +840,6 @@ Transform:
   - {fileID: 750063010}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &533819601
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 533819603}
-  - component: {fileID: 533819604}
-  m_Layer: 0
-  m_Name: SceneProgrewer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &533819603
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533819601}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8356631, y: -0.32119668, z: -2.4191532}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &533819604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533819601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc3a0a4a3f7c6c4489618fed6f03d0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  warmUpTime: 5
-  loadingScreen: {fileID: 0}
-  objectsToActivate: []
 --- !u!1 &593995884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1545,7 @@ PlayableDirector:
   - key: {fileID: 8874235408304376246, guid: 52cdb16bb5758a14686ca4c92f8059c9, type: 2}
     value: {fileID: 1761575797}
   - key: {fileID: -4767362066226118956, guid: 52cdb16bb5758a14686ca4c92f8059c9, type: 2}
-    value: {fileID: 533819601}
+    value: {fileID: 0}
   - key: {fileID: 8245022396761228276, guid: 52cdb16bb5758a14686ca4c92f8059c9, type: 2}
     value: {fileID: 1270198383}
   m_ExposedReferences:
@@ -2243,7 +2196,7 @@ Transform:
   m_GameObject: {fileID: 1382898144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41881713, y: -0.13314234, z: -2.403631}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2268,14 +2221,14 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3045,7 +2998,6 @@ SceneRoots:
   - {fileID: 1550696818}
   - {fileID: 2448803124531148773}
   - {fileID: 651065676}
-  - {fileID: 533819603}
   - {fileID: 1840606783}
   - {fileID: 1382898146}
   - {fileID: 440442953}

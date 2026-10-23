@@ -9,6 +9,11 @@ public class panelLogic : MonoBehaviour
     {
         GameManager.Instance.ChangeScene(sceneName);
     }
+    
+    public void RestartThisScene()
+    {
+        GameManager.Instance.RestartScene();
+    }
 
     public void EnableObject() => gameObject.SetActive(true);
     public void DisableObject() => gameObject.SetActive(false);

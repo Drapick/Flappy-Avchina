@@ -52,11 +52,6 @@ public class FlAvManager : MonoBehaviour
         Player.SetActive(false);
     }
 
-    public void RestartScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
     // Очки
     /// <summary>
     /// Добавляет 1 очко к текущему счету и автоматически перезаписывает JSON-сейв, если побит рекорд.

@@ -11,7 +11,6 @@ public class pipeLogic : MonoBehaviour
 
     void Update()
     {
-        // Движение
         transform.Translate(Vector2.left * speed * Time.deltaTime);
     }
 }

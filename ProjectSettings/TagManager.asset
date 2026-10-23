@@ -8,6 +8,7 @@ TagManager:
   - PipePart
   - PipePartTwo
   - ScoreTrigger
+  - TANKA
   layers:
   - Default
   - TransparentFX

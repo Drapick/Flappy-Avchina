@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class panelLogic : MonoBehaviour
 {
-    public void ChangeScene(string sceneName)
+    public void OnFadeCompleteLoadScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        GameManager.Instance.ChangeScene(sceneName);
     }
 
     public void EnableObject() => gameObject.SetActive(true);

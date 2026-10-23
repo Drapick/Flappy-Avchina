@@ -1,31 +1,55 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PipeSpawner : MonoBehaviour
 {
-    public GameObject pipe_prefab;      // Префаб
-    public float minY;             // Минимум по Y
-    public float maxY;             // Максимум по Y
-    public float spawnInterval = 2f; // Интервал спавна
-    public float xPosition = 10f;  // Точка спавна по X
+    [SerializeField] private GameObject pipePrefab;
+    [SerializeField] private int poolSize = 5;       // Достаточный размер пула
+    [SerializeField] private float minY = -1.7f;
+    [SerializeField] private float maxY = 1.7f;
+    [SerializeField] private float spawnInterval = 1.5f;
+    [SerializeField] private float xPosition = 7f;
+
+    private GameObject[] _pipePool;
+    private int _currentIndex = 0;
+    private float _timer;
 
     void Start()
     {
-        // Запускаем повторение метода Spawn через каждые spawnInterval секунд
-        InvokeRepeating("Spawn", 0f, spawnInterval);
+        // Создаем пул один раз при запуске
+        _pipePool = new GameObject[poolSize];
+        for (int i = 0; i < poolSize; i++)
+        {
+            _pipePool[i] = Instantiate(pipePrefab);
+            _pipePool[i].SetActive(false);
+        }
     }
 
-    void Spawn()
+    void Update()
     {
-        // Генерируем случайную высоту
-        float randomY = Random.Range(minY, maxY);
-        Vector2 spawnPos = new Vector2(xPosition, randomY);
+        _timer += Time.deltaTime;
 
-        // Создаем префаб
-        GameObject newPipe = Instantiate(pipe_prefab, spawnPos, Quaternion.identity);
-        
-        // Удаляем спустя время
-        Destroy(newPipe, 6f);
+        if (_timer >= spawnInterval)
+        {
+            _timer = 0f;
+            SpawnFromPool();
+        }
+    }
+
+    private void SpawnFromPool()
+    {
+        GameObject pipe = _pipePool[_currentIndex];
+
+        // Задаем новую позицию
+        float randomY = Random.Range(minY, maxY);
+        pipe.transform.position = new Vector2(xPosition, randomY);
+
+        // Активируем объект, если он был скрыт
+        if (!pipe.activeSelf)
+        {
+            pipe.SetActive(true);
+        }
+
+        // Переходим к следующему элементу по кругу
+        _currentIndex = (_currentIndex + 1) % poolSize;
     }
 }

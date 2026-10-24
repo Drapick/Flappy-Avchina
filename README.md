@@ -20,4 +20,4 @@
 - Движок: Unity 2022.3.62f3
 - Язык: C#
 - Хранение данных: SQLite, JSON
-- Графика и арт: Aseprite
+- Графика и арт: Aseprite, Photoshop

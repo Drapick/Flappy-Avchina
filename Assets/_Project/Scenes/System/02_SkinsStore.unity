@@ -682,7 +682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a87bb4559fd8d04f8667709e4fb8556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 235446634}
   allAnimators: []
 --- !u!1 &371502576
 GameObject:
@@ -2237,7 +2236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a87bb4559fd8d04f8667709e4fb8556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1903723177}
   allAnimators: []
 --- !u!1 &869537783
 GameObject:
@@ -3000,7 +2998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a87bb4559fd8d04f8667709e4fb8556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 667985049}
   allAnimators: []
 --- !u!1 &1259299294
 GameObject:
@@ -4019,7 +4016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a87bb4559fd8d04f8667709e4fb8556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1487306051}
   allAnimators: []
 --- !u!1 &1841678891
 GameObject:

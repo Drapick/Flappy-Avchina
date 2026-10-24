@@ -67,6 +67,7 @@ GameObject:
   - component: {fileID: 2357120130731281346}
   - component: {fileID: 9025450304818937174}
   - component: {fileID: 3272351675266089974}
+  - component: {fileID: 3405603991098151563}
   m_Layer: 6
   m_Name: ground_2
   m_TagString: ground
@@ -238,6 +239,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.11, y: 6.89}
   m_EdgeRadius: 0
+--- !u!50 &3405603991098151563
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686504968479799720}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1040194275550939004
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +805,7 @@ GameObject:
   - component: {fileID: 6602789334510572804}
   - component: {fileID: 8127621459755321852}
   - component: {fileID: 933790653058796681}
+  - component: {fileID: 7019194989406203019}
   m_Layer: 6
   m_Name: ground_2
   m_TagString: ground
@@ -948,6 +977,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.11, y: 6.89}
   m_EdgeRadius: 0
+--- !u!50 &7019194989406203019
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962520321157554872}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &3125832182291538233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1631,7 @@ GameObject:
   - component: {fileID: 5208253856638242514}
   - component: {fileID: 8617285199835751107}
   - component: {fileID: 6034520736808039832}
+  - component: {fileID: 5660275593520927107}
   m_Layer: 6
   m_Name: ground_1
   m_TagString: ground
@@ -1746,6 +1803,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.11, y: 6.89}
   m_EdgeRadius: 0
+--- !u!50 &5660275593520927107
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7016017625890567263}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7187216555763804076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2178,7 @@ GameObject:
   - component: {fileID: 4628229051985637357}
   - component: {fileID: 6195162594735349986}
   - component: {fileID: 7997925223550803176}
+  - component: {fileID: 7175075183932868069}
   m_Layer: 6
   m_Name: ground_1
   m_TagString: ground
@@ -2265,6 +2350,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.11, y: 6.89}
   m_EdgeRadius: 0
+--- !u!50 &7175075183932868069
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8084622629785182646}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8199878302793277969
 GameObject:
   m_ObjectHideFlags: 0

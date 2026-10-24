@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7939154835359586549}
   - component: {fileID: 4504527277135723140}
   - component: {fileID: 2045556610977430403}
+  - component: {fileID: 5549107264001459830}
   m_Layer: 0
   m_Name: 00_Tube_up
   m_TagString: PipePart
@@ -176,6 +177,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 51.6}
   m_EdgeRadius: 0
+--- !u!50 &5549107264001459830
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984016377408915811}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2462975408729010385
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,6 +216,7 @@ GameObject:
   - component: {fileID: 3178739583004790181}
   - component: {fileID: 3576762635204621624}
   - component: {fileID: 8435083523643658878}
+  - component: {fileID: 2228747502643288571}
   m_Layer: 0
   m_Name: 00_Tube_down
   m_TagString: PipePartTwo
@@ -352,6 +381,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 51.6}
   m_EdgeRadius: 0
+--- !u!50 &2228747502643288571
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462975408729010385}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2901460137502756705
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6433972724415333073}
   - component: {fileID: 1214410539637692066}
+  - component: {fileID: 4595436846856290336}
   m_Layer: 0
   m_Name: PipeParts
   m_TagString: Untagged
@@ -400,6 +457,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!50 &4595436846856290336
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901460137502756705}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &3407264524906050196
 GameObject:
   m_ObjectHideFlags: 0

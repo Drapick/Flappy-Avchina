@@ -69,12 +69,12 @@ public class FlAvManager : MonoBehaviour
 
     private void UpdateScoreUI() {
         foreach (var text in scoreTexts) {
-            if (text) text.text = score.ToString();
+            if (text) text.SetText("{0}", score);
         }
     }
 
     private void UpdateHighScoreUI() {
-        if (bestScoreText) bestScoreText.text = bestScore.ToString();
+        if (bestScoreText) bestScoreText.SetText("{0}", bestScore);
     }
 
     // --- ЛОГИКА JSON ---

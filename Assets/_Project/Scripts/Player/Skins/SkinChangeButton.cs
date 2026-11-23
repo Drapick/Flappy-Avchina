@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SkinChangeButton : MonoBehaviour
 {
     [Header("Имя спрайта для смены")]
-    [SerializeField] private string targetSkinName = "02_shlapa_skin";
+    [SerializeField] private string targetSkinName = "00_standart_skin";
 
     private void Awake()
     {
@@ -16,7 +16,7 @@ public class SkinChangeButton : MonoBehaviour
     {
         if (PlayerSkinManager.Instance != null)
         {
-            PlayerSkinManager.Instance.ChangeSkin(targetSkinName);
+            PlayerSkinManager.Instance.EquipSkin(targetSkinName, saveToFile: true);
         }
         else
         {
